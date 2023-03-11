@@ -38,20 +38,24 @@
 }
 
 body {
-  background-color: black;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .button {
-  border-radius: 0.5rem;
-  color: #282c34;
+  border-radius: 0.3rem;
+  border-width: 0;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   height: 40px;
   width: 100px;
+  transition: 400ms all ease-in-out;
 }
 
 .button:hover {
   cursor: pointer;
+  color: #fff;
   background-color: darkgrey;
 }
